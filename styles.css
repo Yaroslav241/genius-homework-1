@@ -1,0 +1,147 @@
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/play-v19-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/play-v19-latin-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v47-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/roboto-v47-latin-600.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v47-latin-700.woff2") format("woff2");
+}
+
+:root {
+  --color-primary--dark: #011c44;
+  --color-primary--light: #4f6ef7;
+  --color-primary--white: #ffffff;
+  --color-black: #000000;
+}
+
+/*base*/
+body {
+  color: var(--color-primary--dark);
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.7;
+}
+
+ul {
+  list-style: none;
+}
+
+/* button*/
+.button-primary {
+  color: var(--color-primary--white);
+  background-color: var(--color-primary--light);
+  border: 2px solid var(--color-primary--light);
+  border-radius: 32px;
+  cursor: pointer;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.button-primary:hover {
+  color: var(--color-primary--dark);
+  background-color: transparent;
+}
+
+/*link*/
+.link {
+  color: var(--color-primary--dark);
+  line-height: 1.1;
+}
+
+.link:hover {
+  color: var(--color-primary--light);
+}
+
+/*section*/
+.section-title .accent {
+  color: var(--color-primary--light);
+}
+
+.hero-title {
+  color: var(--color-primary--light);
+  font-family: Play;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 140px;
+  line-height: 0.8;
+}
+
+.hero {
+  font-family: Play;
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+}
+
+.compan {
+  font-family: Roboto;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.box {
+  color: var(--color-black);
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.tabl {
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+.title-text {
+  text-transform: capitalize;
+  color: var(--color-primary--light);
+}
+
+.paragraph-one {
+  font-size: 18px;
+}
+
+.paragraph-two {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.address {
+  line-height: 1.1;
+  color: var(--color-primary--white);
+}
+
+.address:hover {
+  color: var(--color-primary--light);
+}
